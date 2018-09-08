@@ -7,7 +7,7 @@ client.login(token);
 module.exports = {
   Help : (msg) => {
     msg.channel.send(new Discord.RichEmbed()
-    .setFooter('©️Skullyfox#2814 - Développeur JavaScript & Python'))
+    .setFooter('©️Skullyfox#2814 - Développeur JavaScript & Python')
     .setAuthor(client.user.username,client.user.avatarURL)
     .setTitle('| Commandes disponnibles |')
     .setColor(7385958)
