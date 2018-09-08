@@ -32,6 +32,7 @@ client.on('ready', () => {
 
   🎉 Votre bot est actuellement connecté ! 🎉
   `.cyan.bold);
+  client.user.setActivity('Foxhub StatsTracker')
 });
 
 client.on('message', msg =>{
