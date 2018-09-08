@@ -18,9 +18,9 @@ module.exports = {
     .addField("**Foxhub fsc plateform:username : **","Donne les stats Fortnite du joueur souhaité.")
     .setFooter("©️Skullyfox#0666",client.users.get('138050601702522880').avatarURL)
     .addField("\u200B","======== Stats Overwatch ========")
-    .addField("\u200B","Bientôt")
+    .addField("Bientôt !","\u200B")
     .addField("\u200B","======== Stats World Of Warcraft ========")
-    .addField("\u200B","Bientôt")
+    .addField("Bientôt !","\u200B")
 
     )
   }
