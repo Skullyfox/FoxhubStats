@@ -17,5 +17,6 @@ module.exports = {
     .addField("**Foxhub fst : **","Donne la liste d'objet de la boutique journalière de Fortnite.")
     .addField("**Foxhub fsc plateform:username : **","Donne les stats Fortnite du joueur souhaité.")
     .setFooter("©️Skullyfox#0666",client.users.get('138050601702522880').avatarURL)
+    )
   }
 }
