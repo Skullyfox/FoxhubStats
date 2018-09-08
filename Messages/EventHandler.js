@@ -9,7 +9,7 @@ client.login(token);
 module.exports = {
 
   onMessage : (msg) => {
-    (msg.content.includes('help') && msg.content.startsWith('+'))
+    (msg.content.includes('Foxhub StatsTracker') && msg.content.split(' ').length === 1)
     ? help.Help(msg)
     : null
 
